@@ -6,7 +6,7 @@
 /*   By: grebett <grebett@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/19 15:55:33 by grebett           #+#    #+#             */
-/*   Updated: 2015/01/23 14:46:40 by grebett          ###   ########.fr       */
+/*   Updated: 2015/03/13 16:23:46 by grebett          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ static void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-static void ft_putstr(char *str)
+static void	ft_putstr(char *str)
 {
 	int		i;
 
